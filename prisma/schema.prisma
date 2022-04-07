@@ -18,3 +18,9 @@ model Student {
   avatar   String
 
 }
+
+model Class {
+  id        String @id @default(uuid())
+  title     String
+  professor String
+}
